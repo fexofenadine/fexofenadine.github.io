@@ -1,47 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>fexofenadine</title>
+        <link rel="icon" href="https://avatars.githubusercontent.com/u/13533014">
         <style>
             body {
-                background-color: #1E1E1E;
+                margin: 0;
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: radial-gradient(circle at top, #2a2a2e, #1E1E1E 60%);
                 color: #C74E39;
                 font-family: 'Helvetica', sans-serif;
-                font-size: 4em;
+            }
+            main {
+                width: 100%;
+                max-width: 32em;
+                padding: 2em 1em;
+                text-align: center;
+            }
+            .avatar {
+                width: 96px;
+                height: 96px;
+                border-radius: 50%;
+                border: 3px solid #C74E39;
+            }
+            h1 {
+                margin: 0.3em 0 0.2em;
+                font-size: 2.2em;
             }
             quote {
+                display: block;
+                margin-bottom: 2em;
                 color: cyan;
-                font-size: 0.5em;
             }
             author {
                 color: darkcyan;
             }
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                margin: 0.8em 0;
+            }
             a {
+                display: block;
+                padding: 0.8em 1em;
+                border: 2px solid #007ACC;
+                border-radius: 12px;
                 color: #007ACC;
+                font-size: 1.3em;
                 text-decoration: none;
+                transition: all 0.15s ease;
             }
             a:hover {
                 color: cyan;
+                border-color: cyan;
+                background: rgba(0, 255, 255, 0.07);
+                transform: translateY(-2px);
             }
         </style>
-        <link rel="icon" href="https://avatars.githubusercontent.com/u/13533014">
     </head>
     <body>
-        <center>
+        <main>
             <!-- fexofenadine woz ere! -->
+            <img class="avatar" src="https://avatars.githubusercontent.com/u/13533014" alt="">
+            <h1>fexofenadine</h1>
             <quote>"only assholes quote themselves"<author> -&nbsp;fexofenadine,&nbsp;<script>document.write( new Date().getUTCFullYear() );</script></author></quote>
-            <br /><br />
-            <a href="https://foodgit.github.io">gitFOOD</a>
-            <br /><br />
-            <a href="puzzlesplus/">Puzzles+!</a>
-            <br /><br />
-            <a href="cbzLab/">cbzLab</a>
-            <br /><br />
-            <a href="vsse/">Vampire Survivors Savegame Editor</a>
-            <br /><br />
-            <a href="https://github.com/fexofenadine">My GitHub Page</a>
-            <br /><br />
-            <a href="https://gist.github.com/fexofenadine">My Gists</a>   
-        </center>
+
+            <!--one line per link, shown top to bottom-->
+            <ul>
+                <li><a href="https://foodgit.github.io">gitFOOD</a></li>
+                <li><a href="puzzlesplus/">Puzzles+!</a></li>
+                <li><a href="cbzLab/">cbzLab</a></li>
+                <li><a href="vsse/">Vampire Survivors Savegame Editor</a></li>
+                <li><a href="https://github.com/fexofenadine">My GitHub Page</a></li>
+                <li><a href="https://gist.github.com/fexofenadine">My Gists</a></li>
+            </ul>
+        </main>
     </body>
 </html>
